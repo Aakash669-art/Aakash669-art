@@ -5,7 +5,7 @@ public class printf_Table_of_9 {
         int number = 9; // Number for the multiplication table
         //  System.out.printf("Multiplication Table of %d:%n", number);
 
-        System.out.printf("%d x 1= %d%n" , , number * 1);
+        System.out.printf("%d x 1= %d%n" , number, number * 1);
         System.out.printf("%d x 2 = %d%n", number, number * 2);
         System.out.printf("%d x 3 = %d%n", number, number * 3);
         System.out.printf("%d x 4 = %d%n", number, number * 4);
