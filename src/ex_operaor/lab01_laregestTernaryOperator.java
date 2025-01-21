@@ -1,6 +1,6 @@
 package ex_operaor;
 
-public class lab01_laregestOperator {
+public class lab01_laregestTernaryOperator {
 
     public static void main (String[] args) {
         int a = 20 , b = 40 ,  c= 10;
