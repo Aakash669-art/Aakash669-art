@@ -5,7 +5,6 @@ public class ex_CLI {
     public static void main (String[] args) {
 
         String name_string  = args[0];
-
         System.out.println(name_string);
 
         String age_string = args[1];
