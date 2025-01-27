@@ -7,10 +7,11 @@ public class IfelseHackerRank {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the score");
+
         int score = sc.nextInt();
         char grade = 'F';
 
-        if (score >= 90 && score <= 100) {
+        if (score >= 90 && score <= 10) {
             grade = 'A';
         } else if (score >= 80 && score <= 89) {
             grade = 'B';
