@@ -1,10 +1,8 @@
 package ex_Interviewtask;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
-public class Task01if {
+public class Task01_LeapYears {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
