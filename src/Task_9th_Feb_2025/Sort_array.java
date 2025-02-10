@@ -1,5 +1,7 @@
 package Task_9th_Feb_2025;
 
+import java.util.Arrays;
+
 public class Sort_array {
     public static void main(String[] args) {
         int[] number = {12, 34, 10, 1, 100, 3, 4, 32};
@@ -7,6 +9,8 @@ public class Sort_array {
         System.out.println(max_ouput);
         int min_output = give_min(number);
         System.out.println(min_output);
+        Arrays.sort(number);
+        System.out.println(number[number.length-2]);
 
     }
     static int give_max(int[] array) {
